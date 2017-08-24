@@ -28,6 +28,7 @@ for i in range(numb_items):
 	value_ide = raw_input('identifiere value: ') #class == 'price'
 	take_value = filter(None,raw_input('take these values: ').split(' ')) # input form: src alt
 	items[name] = [_tag,identifiere,value_ide,take_value]
+filename = raw_input("json filename : ")
 
 #get the page
 header = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'
@@ -88,16 +89,9 @@ else:
 
 print "proceding to json"
 
-f=open(url.split('/')[2]+'.json',"wb+")
+f=open(filename+'.json',"wb+")
 f.writelines(json.dumps(f_list))
 f.close()
 
 
 print "done."
-
-
-
-
-#
-
-
