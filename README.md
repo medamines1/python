@@ -1,4 +1,5 @@
-<h1>Web scrapper </h1>
+#Web scrapper 
 
-<h3>Usage  :<p> $ python2 crowler.py<br>result : json file 
-</p></h3>
+  #Usage
+    ``` $ python2 crowler.py --> creates  a json file ```
+
