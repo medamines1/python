@@ -1,5 +1,5 @@
-#Web scrapper 
+# Web scrapper 
 
-  #Usage
+  # Usage : 
     ``` $ python2 crowler.py --> creates  a json file ```
 
